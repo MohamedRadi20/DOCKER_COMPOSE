@@ -9,7 +9,7 @@ services:
       - backend
     environment:
       - MYSQL_HOST=moe-mysql-app
-      - MYSQL_USER=abdalla
+      - MYSQL_USER=mohamed
       - MYSQL_PASSWORD=1234
       - MYSQL_DB=moe_db
     volumes:
@@ -23,7 +23,7 @@ services:
       - backend
     environment:
       - MYSQL_ROOT_PASSWORD=rootpassword
-      - MYSQL_USER=abdalla
+      - MYSQL_USER=mohamed
       - MYSQL_PASSWORD=1234
       - MYSQL_DATABASE=moe_db
     container_name: moe-mysql-app
